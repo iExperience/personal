@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 300 16px/1.4 'Open Sans', Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #41acff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #358dd4;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.full {
+  width: 100%;
+}
+
+img.bordered {
+  border: 1pt solid #ddd;
+  border-radius: 3px;
+}
+
+.caption {
+  font-style: italic;
+  color: #888;
+  font-size: 60%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1pt solid #41acff;
+}
+
+.main-head {
+  font-size: 120px;
+  line-height: 1.2;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.left {
+  width: 439px;
+  padding: 40px 40px 40px 0;
+  border-right: 1pt solid #41acff;
+  float: left;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.right {
+  width: 440px;
+  padding: 40px 0 40px 40px;
+  float: left;
+  text-align: right;
+}
+
+.kicker {
+  font-size: 120%;
+  font-style: italic;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1pt solid #41acff;
+}
+
+.footer-head {
+  margin: 20px 0;
+}
